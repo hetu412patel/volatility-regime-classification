@@ -39,7 +39,7 @@ Follow these steps to run the project locally:
 **8. Load Data in Orange**
   - Open Orange Canvas.
   - Use the File widget to import the generated feature matrix CSV file.
-  - Configure the workflow by connecting the required widgets (as per the provided Orange workflow      file), including data preprocessing, model (e.g., Random Forest),        and evaluation components.
+  - Configure the workflow by connecting the required widgets (as per the provided Orange workflow      file), including data preprocessing, model (e.g., Random       Forest) and evaluation components.
   - Run the workflow to classify the data into volatility regimes (crisis vs. non-crisis).
   - Analyze model performance and save the classified output using the appropriate widgets (e.g Save Data).
 
