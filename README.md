@@ -13,18 +13,18 @@ Follow these steps to run the project locally:
 **1. Clone the Repository**
   - git clone <your-repo-url>
     Or download the ZIP and extract it into your preferred folder.
-    
+
 **2. Open in VS Code**
   - Launch the project folder in Visual Studio Code.
   - Ensure the Jupyter Notebook extension is installed.
-  - 
+    
 **3. Configure Python Environment**
   - Select or create a Python environment (recommended: virtual environment).
   - Make sure it is set as the active interpreter in VS Code.
-  - 
+    
 **4. Install Required Dependency**
   - pip install yfinance
-  - 
+    
 **5. Run Jupyter Notebooks**
   - Execute both notebook files in sequence:
       Notebook 1 → Generates intermediate output (Data collection & EDA)
@@ -32,10 +32,10 @@ Follow these steps to run the project locally:
     
 **6. Generate Feature Matrix**
   - After running Notebook 2, a feature matrix CSV file will be generated.
-  - 
+    
 **7. Install Orange**
   - Download and install Orange from its official website.
-  - 
+    
 **8. Load Data in Orange**
   - Open Orange Canvas.
   - Use the File widget to import the generated feature matrix CSV file.
